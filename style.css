@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(red, yellow)
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 }
 
 .navbar {
@@ -14,6 +15,7 @@ body {
     font-weight: 200;
     font-size: 23pt;
     margin-left: 60px;
+    border-radius: .1rem;
 }
 
 a {
