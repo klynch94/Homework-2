@@ -1,0 +1,13 @@
+.navbar-brand {
+    color: white;
+    background-color: rgb(21, 126, 145);
+    padding: 20px;
+    font-family: serif;
+    font-weight: 200;
+    font-size: 23pt;
+}
+
+a {
+    color: grey;
+}
+
