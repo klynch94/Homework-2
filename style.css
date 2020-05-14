@@ -1,29 +1,85 @@
+/* Added gradient background to body */
 body {
-    background-color: #08AEEA;
-    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    background-color: #d4cbd4;
+    background-image: linear-gradient(0deg, #d4cbd4 0%, #97D9E1 100%);
+    height: 100vh;
 }
 
+/* Changing color of Navbar and removed padding from bootstrap styling to make it more like the picture providing in hw2 */
 .navbar {
-    background-color: rgb(228, 224, 224);
+    background-color: #fff;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    padding: 0;
 }
 
 .navbar-brand {
     color: white;
-    background-color: rgb(21, 126, 145);
+    background-color: #007bff;
+    border-color: #007bff;
     padding: 20px;
     font-family: serif;
     font-weight: 200;
     font-size: 23pt;
-    margin-left: 60px;
     border-radius: .1rem;
+    text-align: center;
 }
 
-a {
+/* Chaning color of Navbar links */
+.nav-link {
     color: grey;
 }
 
-.card {
-    margin-left: 75px;
-    margin-right: 300px;
-    margin-top: 75px;
+/* Creating a red line under the nav bar item when hovering over it */
+.navbar-nav a:hover {
+    border-bottom: 3px solid red;
+}
+
+/* Lines in between Navbar links */
+li {
+    border-right: solid .5px rgb(218, 212, 212);
+    line-height: 5px;
+}
+
+/* Removing line at the end of the Navbar links */
+li:last-child {
+    border-right: none;
+}
+
+/* Making footer a sticky footer and styling it */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+    ul li {
+        padding: 0px 10px 0px 10px;
+        line-height: 5px;
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar-brand {
+        width: 100%;
+    }
+    .navbar-nav {
+        padding: 8px;
+    }
+    .ml-auto {
+        margin: auto !important
+    }
+    ul li {
+        line-height: 100%;
+    }
 }
