@@ -11,22 +11,60 @@
         <!-- Linking in personal CSS file -->
         <link rel="stylesheet" href="style.css"/>
 
+        <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+
         <title>About Me</title>
     </head>
     <body>
+      <header>
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">Kieran Lynch</a>          
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+        <!-- My name (aka Brand Image) -->
+        <div class="container" id="navbar-container">
+        <a class="navbar-brand" href="index.html">Kieran Lynch</a>  
+    
+          <!-- Navbar links -->
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
+        </div>
         </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-8">
+              <div class="card mt-4">
+                  <div class="card-header">
+                      About Me
+                  </div>
+                  <div class="card-body">
+                    <p class="about-me-text">
+                      <img src="Assets/St.Andrews.Kieran.jpg" alt="Picture of Kieran Lynch" id="about-me-image" class="img-fluid" />
+                      Howdy! My name is Kieran Lynch and I am an aspiring software developer based in Chicago, Illinois. I am currently enrolled in a Full Stack Development program at Northwestern Univsersity. Some of my interests include enjoying a good cup of tea, giving belly rubs to my Bernedoodle puppy - Murphy, European soccer, and traveling. 
+                    </p>
+                    <p>
+                      I previously spent 3 years working at a global technology company, providing travel tech and services to corporations for their employees to use. Moving forward, I would like to expand on this experience and get more involved in the development of the latest and greatest travel tech.
+                    </p>
+                    <p>
+                      Check out some of my projects and let me know what you think...
+                    </p>
+                  </div> 
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
     </body>
 </html>

@@ -14,7 +14,7 @@ body {
 
 .navbar-brand {
     color: white;
-    background-color: #007bff;
+    background-color: #007bff; opacity: 98%;
     border-color: #007bff;
     padding: 20px;
     font-family: serif;
@@ -56,6 +56,26 @@ li:last-child {
     text-align: center;
  }
 
+/* Styling for About Me page */
+/* Styling image */
+.card-header {
+    font-size: larger;
+    font-weight: 500;
+    color: #000000;
+    font-family: 'Crete Round', serif;
+}
+
+
+#about-me-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+
 @media (max-width: 991px) {
     .navbar-nav {
         flex-direction: row;
@@ -66,6 +86,9 @@ li:last-child {
     }
     .navbar-brand {
         margin-left: 1rem;
+    }
+    .container {
+        max-width: 90%;
     }
 }
 
@@ -98,8 +121,10 @@ li:last-child {
     .navbar-brand {
         margin: 0;
     }
-
     .navbar .container {
         max-width: 100%;
+    }
+    #about-me-image {
+        width: 100%;
     }
 }
