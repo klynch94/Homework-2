@@ -69,6 +69,12 @@ li:last-child {
     }
 }
 
+@media (max-width: 768px) {
+    .col-sm-8 {
+        flex: 100%;
+        max-width: 100%;
+    }
+
 @media (max-width: 640px) {
     .navbar {
         flex-direction: column;
