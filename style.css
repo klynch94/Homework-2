@@ -64,6 +64,9 @@ li:last-child {
         padding: 0px 10px 0px 10px;
         line-height: 5px;
     }
+    .navbar-brand {
+        margin-left: 1rem;
+    }
 }
 
 @media (max-width: 640px) {
@@ -81,5 +84,12 @@ li:last-child {
     }
     ul li {
         line-height: 100%;
+    }
+    .navbar-brand {
+        margin: 0;
+    }
+
+    .navbar .container {
+        max-width: 100%;
     }
 }
