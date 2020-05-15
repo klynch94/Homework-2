@@ -74,6 +74,10 @@ li:last-child {
         flex: 100%;
         max-width: 100%;
     }
+    .container,
+    .container-sm {
+        max-width: 100%;
+    }
 
 @media (max-width: 640px) {
     .navbar {
