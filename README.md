@@ -26,6 +26,12 @@ Contact
 <img src="Assets/ContactExample.jpg">
 
 Below are 3 images that demonstrate the responsiveness of the website:
+<<<<<<< HEAD
 <img src="Assets/AboutMeAt980px.jpg">
 <img src="Assets/AboutMeAt780px.jpg">
 <img src="Assets/AboutMeAt640px.jpg">
+=======
+![](assets/AboutMeAt980px.jpg)
+![](assets/AboutMeAt780px.jpg)
+![](assets/AboutMeAt640px.jpg)
+>>>>>>> 5c4c3e72e99d304388b8e5664dddc820f567231f
