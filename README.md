@@ -29,6 +29,6 @@ Contact
 
 
 Below are 3 images that demonstrate the responsiveness of the website:
-![](assets/AboutMeAt980px.png)
-![](assets/AboutMeAt780px.png)
-![](assets/AboutMeAt640px.png)
+![](assets/AboutMeAt980px.jpg)
+![](assets/AboutMeAt780px.jpg)
+![](assets/AboutMeAt640px.jpg)
