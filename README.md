@@ -17,18 +17,15 @@ I started by creating 3 basic webpages - About Me, Portfolio, and Contact. I cre
 Here are the 3 pages:
 
 About Me
-<insert image here>
-
+<img src="Assets/AboutMeAt980px.jpg">
 
 Portfolio
-<insert image here>
-
+<img src="Assets/PortfolioExample.jpg">
 
 Contact
-<insert image here>
-
+<img src="Assets/ContactExample.jpg">
 
 Below are 3 images that demonstrate the responsiveness of the website:
-![](assets/AboutMeAt980px.png)
-![](assets/AboutMeAt780px.png)
-![](assets/AboutMeAt640px.png)
+<img src="Assets/AboutMeAt980px.jpg">
+<img src="Assets/AboutMeAt780px.jpg">
+<img src="Assets/AboutMeAt640px.jpg">
