@@ -1,13 +1,16 @@
-/* Added gradient background to body */
+/* Added gradient background to body and extended so the footer is not covering content */
 body {
     background-color: #d4cbd4;
     background-image: linear-gradient(0deg, #d4cbd4 0%, #97D9E1 100%);
     height: 100vh;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
 }
 
 /* Changing color of Navbar and removed padding from bootstrap styling to make it more like the picture providing in hw2 */
 nav {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
     padding: 0;
     text-align: center;
@@ -58,7 +61,7 @@ li:last-child {
 }
 
 /* Making footer a sticky footer and styling it */
-.footer {
+/* .footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -66,14 +69,14 @@ li:last-child {
     background-color: red;
     color: white;
     text-align: center;
- }
+} */
 
 /* Styling for About Me page */
 /* Styling image */
 .card-header {
     font-size: larger;
     font-weight: 500;
-    color: #grey;
+    color: grey;
     font-family: 'Crete Round', serif;
 }
 
@@ -86,9 +89,7 @@ li:last-child {
     margin-bottom: 10px;
 }
 
-
 /* Styling Portfolio Page */
-
 .text-block {
     position: absolute;
     top: 75%;
@@ -99,8 +100,7 @@ li:last-child {
     width: 100%;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-  }
-
+}
 
 a:hover {
     opacity: 70%;
@@ -149,7 +149,6 @@ a:hover {
     color: #f39c12;
 }
 
-
 .footer {
     position: fixed;
     left: 0;
@@ -160,7 +159,7 @@ a:hover {
     text-align: center;
     vertical-align: middle;
     padding: 5px;
- }
+}
 
 @media (max-width: 991px) {
     .navbar-nav {
