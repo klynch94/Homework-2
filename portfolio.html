@@ -24,37 +24,44 @@
     <body>
         <header>
             <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg">
+            <nav class="">
             <!-- My name (aka Brand Image) -->
-            <div class="container" id="navbar-container">
-            <a class="navbar-brand" href="index.html">Kieran Lynch</a>  
-        
-                <!-- Navbar links -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+            
+            <div>
+              <a class="navbarLogo" href="index.html">
+              <img id="logoImg" src="./Assets/freeLogo.svg" />
+              </a>  
             </div>
+            
+            <div>
+              <!-- Navbar links -->
+              <ul class="navbarLinks">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+            </div>
+    
             </nav>
         </header>
 
         <!-- Container to hold portfolio content -->
         <section class="container">
             <div class="row">
+                <div class="col-sm-2" ></div>
                 <div class="col-sm-8">
                     <div class="card mt-4">
                         <div class="card-header">
                             <h4>Portfolio</h4>
                         </div>
                         <div class="card-body">
-                            <div class="card-deck">
+                            <div class="row card-deck">
                                 <div class="card">
                                     <a href="https://github.com/klynch94/Homework-1" target="_blank">
                                         <img class="card-img-top" src="Assets/code-refactor.jpg" alt="Card image cap">
@@ -75,6 +82,7 @@
                         </div> 
                     </div>
                 </div>
+                <div class="col-sm-2" ></div>
             </div>
         </section>
 

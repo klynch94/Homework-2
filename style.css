@@ -6,22 +6,25 @@ body {
 }
 
 /* Changing color of Navbar and removed padding from bootstrap styling to make it more like the picture providing in hw2 */
-.navbar {
+nav {
     background-color: #fff;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
     padding: 0;
+    text-align: center;
 }
 
-.navbar-brand {
-    color: white;
-    background-color: #007bff; opacity: 98%;
-    border-color: #007bff;
+.navbarLogo {
     padding: 20px;
-    font-family: serif;
-    font-weight: 200;
-    font-size: 23pt;
     border-radius: .1rem;
     text-align: center;
+    margin: 0 auto;
+}
+
+#logoImg {
+    border: solid;
+    border-color: grey;
+    margin: 10px; 
+    width: 150px;
 }
 
 /* Chaning color of Navbar links */
@@ -29,15 +32,24 @@ body {
     color: grey;
 }
 
+.navbarLinks {
+    flex-direction: row;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px;
+    margin-top: 5px;
+}
+
 /* Creating a red line under the nav bar item when hovering over it */
-.navbar-nav a:hover {
+.navbarLinks a:hover {
     border-bottom: 3px solid red;
 }
 
 /* Lines in between Navbar links */
 li {
-    border-right: solid .5px rgb(218, 212, 212);
-    line-height: 5px;
+    /* border-right: solid .5px rgb(218, 212, 212); */
+    line-height: 100%;
+    font-weight: 200;
 }
 
 /* Removing line at the end of the Navbar links */
@@ -61,7 +73,7 @@ li:last-child {
 .card-header {
     font-size: larger;
     font-weight: 500;
-    color: #000000;
+    color: #grey;
     font-family: 'Crete Round', serif;
 }
 
@@ -88,6 +100,7 @@ li:last-child {
     text-align: center;
     font-family: 'Oswald', sans-serif;
   }
+
 
 a:hover {
     opacity: 70%;
