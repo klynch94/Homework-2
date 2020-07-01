@@ -102,10 +102,10 @@ a:hover {
 /* styling contact page */
 .contactInfo {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
-#email, #liSquare, #GitHub {
+#email, #liSquare, #GitHub, #resume {
     font-size: 75px;;
 }
 
