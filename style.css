@@ -3,10 +3,9 @@ body {
     background-color: #d4cbd4;
     background-image: linear-gradient(0deg, #d4cbd4 0%, #97D9E1 100%);
     min-height: 400px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     clear: both;
     height: 100%;
-    margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -48,7 +47,7 @@ nav {
 
 /* Creating a red line under the nav bar item when hovering over it */
 .navbarLinks a:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #b43327;
 }
 
 /* Lines in between Navbar links */
@@ -62,17 +61,6 @@ li {
 li:last-child {
     border-right: none;
 }
-
-/* Making footer a sticky footer and styling it */
-/* .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-} */
 
 /* Styling for About Me page */
 /* Styling image */
@@ -93,18 +81,6 @@ li:last-child {
 }
 
 /* Styling Portfolio Page */
-.text-block {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #007bff;
-    color: white;
-    width: 100%;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-
 .card-img-top {
     height: 300px;
     width: 100%;
@@ -115,8 +91,28 @@ li:last-child {
     margin-top: 15px;
 }
 
+a {
+    color: #212529;
+}
+
 a:hover {
     opacity: 70%;
+}
+
+/* styling contact page */
+.contactInfo {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#email, #liSquare, #GitHub {
+    font-size: 75px;;
+}
+
+.contactCard {
+    padding: 20px;
+    background-color: transparent;
+    border: none;
 }
 
 /* Footer styling - taken from CodePen - https://codepen.io/1wdtv/pen/ojKxaE */
@@ -138,7 +134,6 @@ a:hover {
 #lab_social_icon_footer .social {
     -webkit-transform: scale(0.8);
     /* Browser Variations: */
-    
     -moz-transform: scale(0.8);
     -o-transform: scale(0.8);
     -webkit-transition-duration: 0.5s;
@@ -146,32 +141,12 @@ a:hover {
     -o-transition-duration: 0.5s;
 }
   
-#lab_social_icon_footer #social-fb:hover {
-    color: #3B5998;
-}
-  
-#lab_social_icon_footer #social-tw:hover {
-    color: #4099FF;
-}
-  
-#lab_social_icon_footer #social-gp:hover {
-    color: #d34836;
-}
-  
-#lab_social_icon_footer #social-em:hover {
-    color: #f39c12;
+.fa-linkedin-square:before, .fa-envelope-square:before {
+    color: #b43327;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    color: black;
-    text-align: center;
-    vertical-align: middle;
-    padding: 5px;
+    padding: 10px;
 }
 
 @media (max-width: 991px) {
