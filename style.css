@@ -115,6 +115,20 @@ a:hover {
     border: none;
 }
 
+/* styling testimonial page */
+#testimonialContent {
+    margin-top: 15px;
+}
+
+.quotes {
+    font-style: italic;
+}
+
+.quotePerson {
+    font-weight: bold;
+    font-size: 80%;
+}
+
 /* Footer styling - taken from CodePen - https://codepen.io/1wdtv/pen/ojKxaE */
 #lab_social_icon_footer {
     padding: 40px 0;
