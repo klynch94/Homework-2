@@ -168,7 +168,6 @@ a:hover {
         flex-direction: row;
     }
     ul li {
-        padding: 0px 10px 0px 10px;
         line-height: 5px;
     }
     .navbar-brand {
